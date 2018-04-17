@@ -1,0 +1,13 @@
+/* Parent element should be position realtive */
+.parent-element {
+    position: relative;
+}
+
+.centered-element {
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
